@@ -1,0 +1,209 @@
+body {
+  margin: 0px !important;
+  padding: 0px !important;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/*------------------------------------*\
+  #LINKS
+\*------------------------------------*/
+
+.has-green-link,
+.has-green-link:hover,
+.has-green-link:active {
+  color: #8bc53f !important;
+}
+
+.is-underlined-link {
+  text-decoration: underline;
+}
+
+/*------------------------------------*\
+  #LINKS
+  This is the rule for myPadi basic button
+\*------------------------------------*/
+
+.btn-primary--green {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #8bc53f !important;
+  border-color: #8bc53f !important;
+  font-weight: 600 !important;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-size: 16px;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15) !important;
+  border-radius: 0;
+}
+
+.btn-primary--green:hover,
+.btn-primary--green:focus,
+.btn-primary--green:active {
+  background-color: rgb(109, 155, 49) !important;
+  border-color: rgb(109, 155, 49) !important;
+}
+
+/*# sourceMappingURL=global.css.map */
+
+/*------------------------------------*\
+  #HELPERS
+  Obviously needs refactoring
+\*------------------------------------*/
+
+.no-text-decoration:hover,
+.no-text-decoration:focus,
+.no-text-decoration:active {
+  text-decoration: none;
+}
+
+.myPadi-attention-text {
+  background-color: #83d244;
+  padding: 4px;
+  color: #fff;
+}
+myPadi-text-green {
+  color: #83d244 !important;
+}
+
+.inverse-layout {
+  background: #f9f9f9;
+}
+
+.myPadi-link {
+  color: #8ace42;
+  text-decoration: none;
+}
+
+.myPadi-link:hover,
+.myPadi-link:active,
+.myPadi-link:focus {
+  color: #8ace42;
+  text-decoration: underline;
+}
+
+.radius-less {
+  border-radius: 0 !important;
+}
+
+.hero-subheading {
+  font-family: 'Lato' sans-serif !important;
+  font-size: 24px !important;
+  color: #fff !important;
+}
+
+@media screen and (max-width: 767px) {
+  .hero-subheading {
+    font-size: 16px !important;
+    font-weight: normal !important;
+  }
+}
+
+.add-margin-bottom {
+  margin-bottom: 20px !important;
+}
+
+.white-text {
+  color: #fff !important;
+}
+.gray-text {
+  color: #484848 !important;
+}
+.hero-heading {
+  font-family: 'Lato', sans-serif;
+  font-size: 54px !important;
+  color: #fff !important;
+}
+
+@media screen and (max-width: 767px) {
+  .hero-heading {
+    font-size: 28px !important;
+  }
+}
+
+.no-left-padding {
+  padding-left: 0 !important;
+}
+.myPadi-section-heading,
+.myPadi-description-heading,
+.myPadi-description-text {
+  font-family: 'Open Sans', sans-serif !important;
+  color: #484848 !important;
+}
+
+.myPadi-section-heading {
+  font-size: 30px !important;
+  line-height: 33px !important;
+  font-weight: 700 !important;
+}
+
+@media screen and (max-width: 767px) {
+  .myPadi-section-heading {
+    font-size: 20px !important;
+  }
+}
+
+.myPadi-description-heading {
+  font-size: 20px !important;
+  line-height: 26px !important;
+  font-weight: 700 !important;
+}
+
+@media screen and (max-width: 767px) {
+  .myPadi.myPadi-description-heading,
+  .is-big-heading {
+    font-size: 16px !important;
+  }
+}
+
+.myPadi-description-text {
+  font-size: 14px !important;
+  line-height: 23px !important;
+  font-weight: 300 !important;
+}
+
+@media screen and (max-width: 767px) {
+  .myPadi-description-text {
+    font-size: 12px !important;
+  }
+}
+
+.myPadi-description-text-alt {
+  font-size: 15px !important;
+  line-height: 21px !important;
+  font-weight: 300 !important;
+}
+
+@media screen and (max-width: 767px) {
+  .myPadi-description-text-alt {
+    font-size: 13px !important;
+  }
+}
+.myPadi-description-text-alt-bg {
+  font-size: 19px !important;
+  line-height: 21px !important;
+  font-weight: 300 !important;
+}
+
+@media screen and (max-width: 767px) {
+  .myPadi-description-text-alt-bg {
+    font-size: 15px !important;
+  }
+}
+
+/*------------------------------------*\
+  #HELPERS
+\*------------------------------------*/
+
+.no-radius {
+  border-radius: 0 !important;
+}
+
+/*------------------------------------*\
+  #ERRORS
+\*------------------------------------*/
+
+::selection {
+  background-color: #8ace42 !important;
+  color: #fff !important;
+}

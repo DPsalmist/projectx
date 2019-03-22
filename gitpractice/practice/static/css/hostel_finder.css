@@ -1,0 +1,255 @@
+	nav{
+			background-color: black;
+			color: white;
+		}
+		li {
+			color: #fff;
+		}
+		a{
+			color: #fff;
+			font-family: OpenSans-Extrabold;
+		}
+		a:hover{
+			color: royalblue;
+		}
+		/*ul {
+			margin-left: 450px;
+		}
+		*/
+		body{
+			font-family: OpenSans-ExtraBold;
+			background-color: #fff;
+		}
+
+		h1{
+			color: royalblue;
+			/*box-shadow: 3px 1px 3px #333;*/
+			text-shadow: 1px 1px 1px #fff;
+			background-color: transparent;
+			font-family: OpenSans-ExtraBold;
+			margin-top: 200px;
+			text-align: center;
+		}
+
+		h2{
+			color: royalblue;
+			text-shadow: 1px 1px 1px black;
+			text-align: center;
+			font-family: OpenSans-ExtraBold;
+		}
+
+		div{
+			border: 0px solid blue;
+		}
+
+		.dropdown-item{
+			background-color: black;
+			color:#fff;
+		}
+
+		.dropdown-item:hover{
+		background-color:royalblue;
+		color: white;
+		}
+		.container-fluid{
+			min-width: 100%;
+			font-family:OpenSans-ExtraBold; 
+			min-height: 1000px;
+			border: 0px solid red;
+		}
+		#bgpic1{
+			background-image: url('../images/castle.jpg');
+			background-repeat: no-repeat;
+			background-size: contain;
+			max-height: 600px;
+			border: 2px solid gold;
+		}
+		#bgpic2{
+			background-image: url('images/hostel2.jpeg');
+			background-repeat: no-repeat;
+			background-size: cover;
+			max-height: 500px;
+			border: 2px solid gold;
+		}
+		#logo{
+			max-height: 50px;
+		}
+		#nav2{
+			display: none;
+		}
+		#regform{
+			display: ;
+		}
+		#regform2{
+			display: ;
+		}
+		#signup{
+			color: #fff;
+		}
+
+		#buttons{
+			display:flex;
+			justify-content: center;
+		}
+
+		#loginform{
+			box-sizing: border-box;
+			padding: 0px;
+		}
+		#footer{
+			background-color: black;
+			color: #fff;
+			min-height: 260px;
+			text-align: center;
+			/*margin: auto;*/
+			text-decoration:none; 
+			/*display:flex;
+			justify-content:center;*/
+		}
+		#modalfooter{
+			margin-left: 0px;
+		}
+		#agent{
+			min-width: 150px;
+		}
+		#reg{
+			color: red;
+		}
+		#border1{
+			border-right: 2px solid blue
+		}
+		#border2{
+			border-left: 0px solid blue
+
+		}
+		#border3{
+			border-left: 2px solid blue
+		}
+		/*#hosteldetails{
+			display: none;
+		}*/
+		#myprofile{
+			max-width: 100px;
+			min-height: 100px;
+			text-decoration: none;
+		}
+		#agentprofile{
+			display: none;
+		}
+		/*#search{
+			display: flex;
+			justify-content: center;
+		}*/
+		#faq{
+			display: flex;
+			justify-content: center;
+		}
+
+/*		#navbarSupportedContent{
+			display: flex;
+			justify-content: 
+		}*/
+
+
+/*		@media (min-width: 320px) and (max-width: 480px) {
+		ul{
+			margin-left: 0px;
+			font-size: ;
+			}
+		}
+
+		@media (min-width: 481px) and (max-width: 767px) {
+  		ul{
+  			margin-left: 0px;
+  		}
+	}
+
+	@media (min-width: 480px) and (max-width: 320px) and (orientation: landscape){
+  		ul{
+  			margin-left: 0px;
+  		}
+	} 
+
+	@media (min-width: 640px) and (max-width: 1024px) and (orientation: landscape){
+  		ul{
+  			margin-left: 0px;
+  		}
+	} 
+
+		@media (min-width: 840px) and (max-width: 1024px) and (orientation: landscape){
+  		ul{
+  			margin-left: 100px;
+  			}
+ 		}  
+	
+
+ 		@media (min-width: 1024px) and (max-width: 1400px) {
+  		ul{
+  			margin-left: 200px;
+  		}
+  	}
+
+ 		@media (min-width: 1025px) and (max-width: 1400px) {
+  		ul{
+  			margin-left:450px;
+  		}
+  	}
+
+  	@media (min-width: 1380px) {
+  		ul{
+  			margin-left: 600px;
+  			font-size: ;
+  		}
+  	} */
+  	/* <div id="regform">
+    <form action="/agentprofile" method="post">
+  <div class="form-group">
+    {{ form.lname.label }}
+    {{ form.lname (placeholder = 'Enter your lastname' )}}
+    <input type="hidden" value="{{ csrf_token() }}" name="">
+  </div>
+  <div class="form-group">
+    {{ form.fname.label }}
+    {{ form.fname (placeholder='Enter your firstname') }}
+    <input type="hidden" value="{{ csrf_token() }}" name="">
+  </div>
+  <div class="form-group">
+    {{ form.email.label }}
+    {{ form.email (placeholder='Enter your email' ) }}
+    {% if form.email.errors %}
+    {% for i in form.email.errors %}
+        <p style="color: red">{{ 'Invalid Email!' }}</p>
+    {% endfor %}
+    {% endif %}
+  </div>
+   <div class="form-group">
+    {{ form.phone.label }}
+    {{ form.phone (placeholder='Enter your telephone') }}
+    <input type="hidden" value="{{ csrf_token() }}" name="">
+  </div>
+   <div class="form-group">
+    {{ form.gender.label }}
+    {{ form.gender (placeholder='Select gender') }}
+    <input type="hidden" value="{{ csrf_token() }}" name="">
+  </div>
+   <div class="form-group">
+    {{ form.address.label }}
+    {{ form.address (placeholder='Enter your address') }}
+    <input type="hidden" value="{{ csrf_token() }}" name="">
+  </div>
+   <div class="form-group">
+    {{ form.password.label }}
+    {{ form.password (placeholder='Enter your password') }}
+    <input type="hidden" value="{{ csrf_token() }}" name="">
+  </div>
+  <div>
+    {{ form.csrf_token() }}
+    {{ form.submit (class = 'btn btn-outline-primary' ) }}
+  </div>
+  </form> -->
+  
+  <!--The csrf_token is used to generate a security key for the form-->
+  */
+
+
+ 		
